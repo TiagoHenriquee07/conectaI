@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turma BarraCred Conecta 2025</title>
+    <link rel="icon" href="../fotos-alunos/baraced.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">
+                        <img src="../fotos-alunos/logologo.png" alt="Barra Cred Conecta" class="logo">
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#turma" class="nav-link">Nossa Turma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#programa" class="nav-link">Programa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#conquistas" class="nav-link">Conquistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#equipe" class="nav-link">Equipe</a>
+                    </li>
+                </ul>
+                <a href="https://beforms.becompliance.com/680a40523c67010009167a96" target="_blank"
+                    class="cta-button">Faça Parte</a>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Turma BarraCred Conecta 2025</h1>
+            <p class="hero-subtitle">Transformando vidas através da educação, tecnologia e cooperativismo</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="20">0</span>
+                    <span class="stat-label">Alunos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="10">0</span>
+                    <span class="stat-label">Meses</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="100">0</span>
+                    <span class="stat-label">% Gratuito</span>
+                </div>
+            </div>
+            <button class="hero-cta">Conheça Nossa Turma</button>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Nossa Turma Section -->
+    <section id="turma" class="nossa-turma">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossa Turma</h2>
+                <p class="section-subtitle">Conheça os jovens talentos que estão construindo o futuro</p>
+            </div>
+            <div class="team-photo-container">
+                <img src="../fotos-alunos/conecta.jpg" alt="Turma Barra Cred Conecta" class="team-photo">
+            </div>
+
+
+
+            <div class="students-grid" id="studentsGrid">
+                <!-- Students will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Programa Section -->
+    <section id="programa" class="programa">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nosso Programa</h2>
+                <p class="section-subtitle">Uma formação completa que vai além da capacitação técnica</p>
+            </div>
+
+            <div class="programa-grid">
+                <div class="programa-card">
+                    <div class="programa-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Tecnologia da Informação</h3>
+                    <p>Programação, banco de dados, desenvolvimento front-end, back-end e mobile</p>
+                </div>
+
+                <div class="programa-card">
+                    <div class="programa-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Inglês Técnico</h3>
+                    <p>Vocabulário e expressões do mundo corporativo para comunicação eficiente</p>
+                </div>
+
+                <div class="programa-card">
+                    <div class="programa-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Educação Financeira</h3>
+                    <p>Planejamento financeiro e gestão consciente de recursos</p>
+                </div>
+
+                <div class="programa-card">
+                    <div class="programa-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Habilidades Pessoais</h3>
+                    <p>Autoconhecimento, empatia e competências profissionais</p>
+                </div>
+
+                <div class="programa-card">
+                    <div class="programa-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Cooperativismo</h3>
+                    <p>Princípios cooperativistas e trabalho colaborativo</p>
+                </div>
+
+                <div class="programa-card">
+                    <div class="programa-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Preparação Profissional</h3>
+                    <p>Oficinas, palestras e oportunidades de estágio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conquistas Section -->
+    <section id="conquistas" class="conquistas">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossas Conquistas</h2>
+                <p class="section-subtitle">Momentos especiais da nossa jornada de aprendizado</p>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Agosto 2025</div>
+                    <div class="timeline-content">
+                        <h3>Início das Aulas</h3>
+                        <p>Começamos nossa jornada com 20 jovens cheios de sonhos e determinação.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Setembro 2025</div>
+                    <div class="timeline-content">
+                        <h3>Primeiro Projeto</h3>
+                        <p>Desenvolvimento do primeiro projeto em equipe utilizando tecnologias web.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Outubro 2025</div>
+                    <div class="timeline-content">
+                        <h3>..</h3>
+                        <p>...</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Novembro 2025</div>
+                    <div class="timeline-content">
+                        <h3>...</h3>
+                        <p>...</p>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- Equipe Section -->
+    <section id="equipe" class="equipe">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossa Equipe</h2>
+                <p class="section-subtitle">Profissionais dedicados que nos acompanham nesta jornada</p>
+            </div>
+
+            <div class="equipe-grid">
+                <div class="equipe-card">
+                    <div class="equipe-photo">
+                        <img src="../fotos-alunos/andre.png" alt="Andresa">
+                    </div>
+                    <h3>Andresa</h3>
+                    <p class="equipe-role">Coordenadora</p>
+                    <p class="equipe-description">Responsável pela coordenação geral do programa e acompanhamento dos
+                        alunos</p>
+                </div>
+
+                <div class="equipe-card">
+                    <div class="equipe-photo">
+                        <img src="../fotos-alunos/adil.png" alt="Adilson">
+                    </div>
+                    <h3>Adilson</h3>
+                    <p class="equipe-role">Assistente de Coordenação</p>
+                    <p class="equipe-description">Apoio na coordenação e suporte aos estudantes</p>
+                </div>
+
+                <div class="equipe-card">
+                    <div class="equipe-photo">
+                        <img src="../fotos-alunos/aline.png" alt="Profª Aline">
+                    </div>
+                    <h3>Profª Aline</h3>
+                    <p class="equipe-role">Inglês Técnico</p>
+                    <p class="equipe-description">Especialista em inglês corporativo e comunicação internacional</p>
+                </div>
+
+                <div class="equipe-card">
+                    <div class="equipe-photo">
+                        <img src="../fotos-alunos/cris.png" alt="Profª Cristiane">
+                    </div>
+                    <h3>Profª Cristiane</h3>
+                    <p class="equipe-role">Habilidades Pessoais e Profissionais</p>
+                    <p class="equipe-description">Focada no desenvolvimento socioemocional e preparação profissional</p>
+                </div>
+                <div class="equipe-card">
+                    <div class="equipe-photo">
+                        <img src="../fotos-alunos/gallo.png" alt="Professor Gallo">
+                    </div>
+                    <h3>Professor Gallo</h3>
+                    <p class="equipe-role">Tecnologia da Informação</p>
+                    <p class="equipe-description">Especialista em programação e desenvolvimento de sistemas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Desenvolvedores Section -->
+    <section id="desenvolvedores" class="desenvolvedores">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Desenvolvedores</h2>
+                <p class="section-subtitle">Conheça os criadores deste projeto</p>
+            </div>
+
+            <div class="desenvolvedores-grid">
+                <div class="desenvolvedor-card">
+                    <div class="desenvolvedor-photo">
+                        <img src="../fotos-alunos/titi.jpg" alt="Desenvolvedor 1">
+                    </div>
+                    <h3>Tiago Henrique</h3>
+                    <p class="desenvolvedor-role">Front-End</p>
+                    <p class="desenvolvedor-description">Desenvolvedor Front-End responsável por criar interfaces de
+                        usuário intuitivas e responsivas.</p>
+                </div>
+
+                <div class="desenvolvedor-card">
+                    <div class="desenvolvedor-photo">
+                        <img src="../fotos-alunos/celsu.jpg" alt="Desenvolvedor 2">
+                    </div>
+                    <h3>Celso Alves</h3>
+                    <p class="desenvolvedor-role">back-End</p>
+                    <p class="desenvolvedor-description">Desenvolvedor Back-End focado na lógica, segurança e no
+                        desempenho de nossas aplicações.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BarraCred Conecta</h3>
+                    <p>Cooperando para transformar vidas através da educação e tecnologia</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Barra Bonita - SP</p>
+                    <p><i class="fas fa-envelope"></i> contato@barracredconecta.com.br</p>
+                    <p><i class="fas fa-phone"></i> (14) 3641-8000</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Siga-nos</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/Barracred" target="_blank" rel="noopener noreferrer"
+                            class="social-link"><i class="fab fa-facebook"></i></a>
+
+                        <a href="https://www.instagram.com/barracred_oficial/" target="_blank" rel="noopener noreferrer"
+                            class="social-link"><i class="fab fa-instagram"></i></a>
+
+                        <a href="https://www.linkedin.com/company/barracred/" target="_blank" rel="noopener noreferrer"
+                            class="social-link"><i class="fab fa-linkedin"></i></a>
+
+                        <a href="https://www.youtube.com/@barracredcooperativa9578" target="_blank"
+                            rel="noopener noreferrer" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Barra Cred Conecta. Todos os direitos reservados.</p>
+
+                <div class="developer-credits">
+                    <p>
+                        Desenvolvido por
+                        <a href="https://www.linkedin.com/in/tiago-oliveira0808/" target="_blank"
+                            rel="noopener noreferrer" class="developer-link">
+                            <i class="fab fa-linkedin"></i> Tiago Henrique
+                        </a>
+                        &amp;
+                        <a href="https://www.linkedin.com/in/celso-alves-59b062347/" target="_blank"
+                            rel="noopener noreferrer" class="developer-link">
+                            <i class="fab fa-linkedin"></i> Celso Alves
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Student Details -->
+    <div id="studentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- Student details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
